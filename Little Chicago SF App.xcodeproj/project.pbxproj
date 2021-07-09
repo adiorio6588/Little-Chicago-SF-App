@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23588481268FA80D00631D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23588480268FA80D00631D8A /* AppDelegate.swift */; };
+		23588483268FA80D00631D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23588482268FA80D00631D8A /* SceneDelegate.swift */; };
+		23588485268FA80D00631D8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23588484268FA80D00631D8A /* ContentView.swift */; };
+		23588487268FA81200631D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23588486268FA81200631D8A /* Assets.xcassets */; };
+		2358848A268FA81200631D8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23588489268FA81200631D8A /* Preview Assets.xcassets */; };
+		2358848D268FA81200631D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2358848B268FA81200631D8A /* LaunchScreen.storyboard */; };
+		23588498268FA81200631D8A /* Little_Chicago_SF_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23588497268FA81200631D8A /* Little_Chicago_SF_AppTests.swift */; };
+		235884A3268FA81200631D8A /* Little_Chicago_SF_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235884A2268FA81200631D8A /* Little_Chicago_SF_AppUITests.swift */; };
+		235884C8268FB0E000631D8A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235884C7268FB0E000631D8A /* HomeViewModel.swift */; };
+		235884CD268FB11300631D8A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235884CC268FB11300631D8A /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23588494268FA81200631D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23588475268FA80D00631D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2358847C268FA80D00631D8A;
+			remoteInfo = "Little Chicago SF App";
+		};
+		2358849F268FA81200631D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23588475268FA80D00631D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2358847C268FA80D00631D8A;
+			remoteInfo = "Little Chicago SF App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2358847D268FA80D00631D8A /* Little Chicago SF App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Chicago SF App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23588480268FA80D00631D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23588482268FA80D00631D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23588484268FA80D00631D8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23588486268FA81200631D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23588489268FA81200631D8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2358848C268FA81200631D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2358848E268FA81200631D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23588493268FA81200631D8A /* Little Chicago SF AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little Chicago SF AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23588497268FA81200631D8A /* Little_Chicago_SF_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_Chicago_SF_AppTests.swift; sourceTree = "<group>"; };
+		23588499268FA81200631D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2358849E268FA81200631D8A /* Little Chicago SF AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little Chicago SF AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		235884A2268FA81200631D8A /* Little_Chicago_SF_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_Chicago_SF_AppUITests.swift; sourceTree = "<group>"; };
+		235884A4268FA81200631D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235884C7268FB0E000631D8A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		235884CC268FB11300631D8A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2358847A268FA80D00631D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23588490268FA81200631D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2358849B268FA81200631D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23588474268FA80D00631D8A = {
+			isa = PBXGroup;
+			children = (
+				2358847F268FA80D00631D8A /* Little Chicago SF App */,
+				23588496268FA81200631D8A /* Little Chicago SF AppTests */,
+				235884A1268FA81200631D8A /* Little Chicago SF AppUITests */,
+				2358847E268FA80D00631D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2358847E268FA80D00631D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2358847D268FA80D00631D8A /* Little Chicago SF App.app */,
+				23588493268FA81200631D8A /* Little Chicago SF AppTests.xctest */,
+				2358849E268FA81200631D8A /* Little Chicago SF AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2358847F268FA80D00631D8A /* Little Chicago SF App */ = {
+			isa = PBXGroup;
+			children = (
+				23588480268FA80D00631D8A /* AppDelegate.swift */,
+				235884C6268FAB2C00631D8A /* ViewModel */,
+				235884C4268FAAE500631D8A /* Model */,
+				235884BB268FA94C00631D8A /* View */,
+				23588482268FA80D00631D8A /* SceneDelegate.swift */,
+				23588484268FA80D00631D8A /* ContentView.swift */,
+				23588486268FA81200631D8A /* Assets.xcassets */,
+				2358848B268FA81200631D8A /* LaunchScreen.storyboard */,
+				2358848E268FA81200631D8A /* Info.plist */,
+				23588488268FA81200631D8A /* Preview Content */,
+			);
+			path = "Little Chicago SF App";
+			sourceTree = "<group>";
+		};
+		23588488268FA81200631D8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23588489268FA81200631D8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23588496268FA81200631D8A /* Little Chicago SF AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				23588497268FA81200631D8A /* Little_Chicago_SF_AppTests.swift */,
+				23588499268FA81200631D8A /* Info.plist */,
+			);
+			path = "Little Chicago SF AppTests";
+			sourceTree = "<group>";
+		};
+		235884A1268FA81200631D8A /* Little Chicago SF AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				235884A2268FA81200631D8A /* Little_Chicago_SF_AppUITests.swift */,
+				235884A4268FA81200631D8A /* Info.plist */,
+			);
+			path = "Little Chicago SF AppUITests";
+			sourceTree = "<group>";
+		};
+		235884BB268FA94C00631D8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				235884CC268FB11300631D8A /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		235884C4268FAAE500631D8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		235884C6268FAB2C00631D8A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				235884C7268FB0E000631D8A /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2358847C268FA80D00631D8A /* Little Chicago SF App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235884A7268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF App" */;
+			buildPhases = (
+				23588479268FA80D00631D8A /* Sources */,
+				2358847A268FA80D00631D8A /* Frameworks */,
+				2358847B268FA80D00631D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Little Chicago SF App";
+			productName = "Little Chicago SF App";
+			productReference = 2358847D268FA80D00631D8A /* Little Chicago SF App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23588492268FA81200631D8A /* Little Chicago SF AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235884AA268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF AppTests" */;
+			buildPhases = (
+				2358848F268FA81200631D8A /* Sources */,
+				23588490268FA81200631D8A /* Frameworks */,
+				23588491268FA81200631D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23588495268FA81200631D8A /* PBXTargetDependency */,
+			);
+			name = "Little Chicago SF AppTests";
+			productName = "Little Chicago SF AppTests";
+			productReference = 23588493268FA81200631D8A /* Little Chicago SF AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2358849D268FA81200631D8A /* Little Chicago SF AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235884AD268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF AppUITests" */;
+			buildPhases = (
+				2358849A268FA81200631D8A /* Sources */,
+				2358849B268FA81200631D8A /* Frameworks */,
+				2358849C268FA81200631D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				235884A0268FA81200631D8A /* PBXTargetDependency */,
+			);
+			name = "Little Chicago SF AppUITests";
+			productName = "Little Chicago SF AppUITests";
+			productReference = 2358849E268FA81200631D8A /* Little Chicago SF AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23588475268FA80D00631D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2358847C268FA80D00631D8A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					23588492268FA81200631D8A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2358847C268FA80D00631D8A;
+					};
+					2358849D268FA81200631D8A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2358847C268FA80D00631D8A;
+					};
+				};
+			};
+			buildConfigurationList = 23588478268FA80D00631D8A /* Build configuration list for PBXProject "Little Chicago SF App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23588474268FA80D00631D8A;
+			productRefGroup = 2358847E268FA80D00631D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2358847C268FA80D00631D8A /* Little Chicago SF App */,
+				23588492268FA81200631D8A /* Little Chicago SF AppTests */,
+				2358849D268FA81200631D8A /* Little Chicago SF AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2358847B268FA80D00631D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2358848D268FA81200631D8A /* LaunchScreen.storyboard in Resources */,
+				2358848A268FA81200631D8A /* Preview Assets.xcassets in Resources */,
+				23588487268FA81200631D8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23588491268FA81200631D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2358849C268FA81200631D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23588479268FA80D00631D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23588481268FA80D00631D8A /* AppDelegate.swift in Sources */,
+				23588483268FA80D00631D8A /* SceneDelegate.swift in Sources */,
+				235884CD268FB11300631D8A /* Home.swift in Sources */,
+				23588485268FA80D00631D8A /* ContentView.swift in Sources */,
+				235884C8268FB0E000631D8A /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2358848F268FA81200631D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23588498268FA81200631D8A /* Little_Chicago_SF_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2358849A268FA81200631D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235884A3268FA81200631D8A /* Little_Chicago_SF_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23588495268FA81200631D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2358847C268FA80D00631D8A /* Little Chicago SF App */;
+			targetProxy = 23588494268FA81200631D8A /* PBXContainerItemProxy */;
+		};
+		235884A0268FA81200631D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2358847C268FA80D00631D8A /* Little Chicago SF App */;
+			targetProxy = 2358849F268FA81200631D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2358848B268FA81200631D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2358848C268FA81200631D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		235884A5268FA81200631D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		235884A6268FA81200631D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		235884A8268FA81200631D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Little Chicago SF App/Preview Content\"";
+				DEVELOPMENT_TEAM = CDX23BBBAC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Little Chicago SF App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "littlechicagosf.com.Little-Chicago-SF-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		235884A9268FA81200631D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Little Chicago SF App/Preview Content\"";
+				DEVELOPMENT_TEAM = CDX23BBBAC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Little Chicago SF App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "littlechicagosf.com.Little-Chicago-SF-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		235884AB268FA81200631D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDX23BBBAC;
+				INFOPLIST_FILE = "Little Chicago SF AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "littlechicagosf.com.Little-Chicago-SF-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Little Chicago SF App.app/Little Chicago SF App";
+			};
+			name = Debug;
+		};
+		235884AC268FA81200631D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDX23BBBAC;
+				INFOPLIST_FILE = "Little Chicago SF AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "littlechicagosf.com.Little-Chicago-SF-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Little Chicago SF App.app/Little Chicago SF App";
+			};
+			name = Release;
+		};
+		235884AE268FA81200631D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDX23BBBAC;
+				INFOPLIST_FILE = "Little Chicago SF AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "littlechicagosf.com.Little-Chicago-SF-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Little Chicago SF App";
+			};
+			name = Debug;
+		};
+		235884AF268FA81200631D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDX23BBBAC;
+				INFOPLIST_FILE = "Little Chicago SF AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "littlechicagosf.com.Little-Chicago-SF-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Little Chicago SF App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23588478268FA80D00631D8A /* Build configuration list for PBXProject "Little Chicago SF App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235884A5268FA81200631D8A /* Debug */,
+				235884A6268FA81200631D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235884A7268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235884A8268FA81200631D8A /* Debug */,
+				235884A9268FA81200631D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235884AA268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235884AB268FA81200631D8A /* Debug */,
+				235884AC268FA81200631D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		235884AD268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				235884AE268FA81200631D8A /* Debug */,
+				235884AF268FA81200631D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23588475268FA80D00631D8A /* Project object */;
+}
