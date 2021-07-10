@@ -19,6 +19,9 @@ class HomeViewModel: NSObject,ObservableObject,CLLocationManagerDelegate{
     @Published var userAddress = ""
     @Published var noLocation = false
     
+    // Menu....
+    @Published var showMenu = false
+    
     
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
         
@@ -35,9 +38,9 @@ class HomeViewModel: NSObject,ObservableObject,CLLocationManagerDelegate{
         default:
             print("unknown")
             self.noLocation = false
-            // Direct Call
+            // rect Call
             locationManager.requestWhenInUseAuthorization()
-            // Modifying Info.plist....
+            // Modifying Info.plist...
         }
     }
     
