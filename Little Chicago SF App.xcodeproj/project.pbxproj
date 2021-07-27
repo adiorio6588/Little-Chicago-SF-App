@@ -3,11 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23588481268FA80D00631D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23588480268FA80D00631D8A /* AppDelegate.swift */; };
+		01C9ABCAA8CDCF45DDA97132 /* Pods_Little_Chicago_SF_App_Little_Chicago_SF_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C6F986696B02B1D50AAFE6 /* Pods_Little_Chicago_SF_App_Little_Chicago_SF_AppUITests.framework */; };
+		23013A8226A65DB200EAA8AD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 23013A8126A65DB200EAA8AD /* SDWebImageSwiftUI */; };
+		23013A8426A9E1D200EAA8AD /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23013A8326A9E1D200EAA8AD /* ItemView.swift */; };
+		2303194C95DBA47AA4227D31 /* Pods_Little_Chicago_SF_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2607FF36DF9CC2FA7ABFBAF /* Pods_Little_Chicago_SF_AppTests.framework */; };
+		2357FB69269A3B9A00740C15 /* Little_Chicago_SF_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357FB68269A3B9A00740C15 /* Little_Chicago_SF_AppApp.swift */; };
+		2357FB6B269A4D6700740C15 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357FB6A269A4D6700740C15 /* Item.swift */; };
 		23588483268FA80D00631D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23588482268FA80D00631D8A /* SceneDelegate.swift */; };
 		23588485268FA80D00631D8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23588484268FA80D00631D8A /* ContentView.swift */; };
 		23588487268FA81200631D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23588486268FA81200631D8A /* Assets.xcassets */; };
@@ -18,6 +23,8 @@
 		235884C8268FB0E000631D8A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235884C7268FB0E000631D8A /* HomeViewModel.swift */; };
 		235884CD268FB11300631D8A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235884CC268FB11300631D8A /* Home.swift */; };
 		2360C045269896A6004CC252 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360C044269896A6004CC252 /* Menu.swift */; };
+		23A380D226A2361800A1919E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23A380D126A2361800A1919E /* GoogleService-Info.plist */; };
+		AADA9CEACCC7E2FD7BF3F1FF /* Pods_Little_Chicago_SF_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68019B4E9D9A6177D1E21CD /* Pods_Little_Chicago_SF_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23013A8326A9E1D200EAA8AD /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		2357FB68269A3B9A00740C15 /* Little_Chicago_SF_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Little_Chicago_SF_AppApp.swift; sourceTree = "<group>"; };
+		2357FB6A269A4D6700740C15 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2358847D268FA80D00631D8A /* Little Chicago SF App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Chicago SF App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23588480268FA80D00631D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23588482268FA80D00631D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		23588484268FA80D00631D8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23588486268FA81200631D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +64,16 @@
 		235884C7268FB0E000631D8A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		235884CC268FB11300631D8A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2360C044269896A6004CC252 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		23A380D126A2361800A1919E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30F9A421752AD27EEFCC0254 /* Pods-Little Chicago SF AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF AppTests/Pods-Little Chicago SF AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92D3141D0AFB7D27EE2DBB53 /* Pods-Little Chicago SF App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF App.release.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF App/Pods-Little Chicago SF App.release.xcconfig"; sourceTree = "<group>"; };
+		9E14A51F24973E55259E606B /* Pods-Little Chicago SF AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF AppTests.release.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF AppTests/Pods-Little Chicago SF AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7B464CC9E3CA9AA8A40B2D2 /* Pods-Little Chicago SF App-Little Chicago SF AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF App-Little Chicago SF AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF App-Little Chicago SF AppUITests/Pods-Little Chicago SF App-Little Chicago SF AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE4BDBD24D615800C349E3F0 /* Pods-Little Chicago SF App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF App.debug.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF App/Pods-Little Chicago SF App.debug.xcconfig"; sourceTree = "<group>"; };
+		C68019B4E9D9A6177D1E21CD /* Pods_Little_Chicago_SF_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Little_Chicago_SF_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63A68BEB964B69DCAE2E60C /* Pods-Little Chicago SF App-Little Chicago SF AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF App-Little Chicago SF AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF App-Little Chicago SF AppUITests/Pods-Little Chicago SF App-Little Chicago SF AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2607FF36DF9CC2FA7ABFBAF /* Pods_Little_Chicago_SF_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Little_Chicago_SF_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8C6F986696B02B1D50AAFE6 /* Pods_Little_Chicago_SF_App_Little_Chicago_SF_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Little_Chicago_SF_App_Little_Chicago_SF_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23013A8226A65DB200EAA8AD /* SDWebImageSwiftUI in Frameworks */,
+				AADA9CEACCC7E2FD7BF3F1FF /* Pods_Little_Chicago_SF_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2303194C95DBA47AA4227D31 /* Pods_Little_Chicago_SF_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C9ABCAA8CDCF45DDA97132 /* Pods_Little_Chicago_SF_App_Little_Chicago_SF_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3134A9E3E2CFBE8B7FDF76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4BDBD24D615800C349E3F0 /* Pods-Little Chicago SF App.debug.xcconfig */,
+				92D3141D0AFB7D27EE2DBB53 /* Pods-Little Chicago SF App.release.xcconfig */,
+				D63A68BEB964B69DCAE2E60C /* Pods-Little Chicago SF App-Little Chicago SF AppUITests.debug.xcconfig */,
+				B7B464CC9E3CA9AA8A40B2D2 /* Pods-Little Chicago SF App-Little Chicago SF AppUITests.release.xcconfig */,
+				30F9A421752AD27EEFCC0254 /* Pods-Little Chicago SF AppTests.debug.xcconfig */,
+				9E14A51F24973E55259E606B /* Pods-Little Chicago SF AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		23588474268FA80D00631D8A = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +125,8 @@
 				23588496268FA81200631D8A /* Little Chicago SF AppTests */,
 				235884A1268FA81200631D8A /* Little Chicago SF AppUITests */,
 				2358847E268FA80D00631D8A /* Products */,
+				0E3134A9E3E2CFBE8B7FDF76 /* Pods */,
+				A0F68AB6C0DB6D34FF03B20A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,16 +143,17 @@
 		2358847F268FA80D00631D8A /* Little Chicago SF App */ = {
 			isa = PBXGroup;
 			children = (
-				23588480268FA80D00631D8A /* AppDelegate.swift */,
+				23A380D126A2361800A1919E /* GoogleService-Info.plist */,
 				235884C6268FAB2C00631D8A /* ViewModel */,
 				235884C4268FAAE500631D8A /* Model */,
 				235884BB268FA94C00631D8A /* View */,
-				23588482268FA80D00631D8A /* SceneDelegate.swift */,
 				23588484268FA80D00631D8A /* ContentView.swift */,
+				23588482268FA80D00631D8A /* SceneDelegate.swift */,
 				23588486268FA81200631D8A /* Assets.xcassets */,
 				2358848B268FA81200631D8A /* LaunchScreen.storyboard */,
 				2358848E268FA81200631D8A /* Info.plist */,
 				23588488268FA81200631D8A /* Preview Content */,
+				2357FB68269A3B9A00740C15 /* Little_Chicago_SF_AppApp.swift */,
 			);
 			path = "Little Chicago SF App";
 			sourceTree = "<group>";
@@ -150,6 +189,7 @@
 			children = (
 				235884CC268FB11300631D8A /* Home.swift */,
 				2360C044269896A6004CC252 /* Menu.swift */,
+				23013A8326A9E1D200EAA8AD /* ItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +197,7 @@
 		235884C4268FAAE500631D8A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2357FB6A269A4D6700740C15 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +210,16 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		A0F68AB6C0DB6D34FF03B20A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68019B4E9D9A6177D1E21CD /* Pods_Little_Chicago_SF_App.framework */,
+				E8C6F986696B02B1D50AAFE6 /* Pods_Little_Chicago_SF_App_Little_Chicago_SF_AppUITests.framework */,
+				E2607FF36DF9CC2FA7ABFBAF /* Pods_Little_Chicago_SF_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,15 +227,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 235884A7268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF App" */;
 			buildPhases = (
+				8AE42E51DAA9FF337095C027 /* [CP] Check Pods Manifest.lock */,
 				23588479268FA80D00631D8A /* Sources */,
 				2358847A268FA80D00631D8A /* Frameworks */,
 				2358847B268FA80D00631D8A /* Resources */,
+				E553BBF712507717D84164EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Little Chicago SF App";
+			packageProductDependencies = (
+				23013A8126A65DB200EAA8AD /* SDWebImageSwiftUI */,
+			);
 			productName = "Little Chicago SF App";
 			productReference = 2358847D268FA80D00631D8A /* Little Chicago SF App.app */;
 			productType = "com.apple.product-type.application";
@@ -193,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 235884AA268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF AppTests" */;
 			buildPhases = (
+				2D5EE68B6E58CC9EE15E3E30 /* [CP] Check Pods Manifest.lock */,
 				2358848F268FA81200631D8A /* Sources */,
 				23588490268FA81200631D8A /* Frameworks */,
 				23588491268FA81200631D8A /* Resources */,
@@ -211,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 235884AD268FA81200631D8A /* Build configuration list for PBXNativeTarget "Little Chicago SF AppUITests" */;
 			buildPhases = (
+				FF69070DFC4B1E7A0C78CA6C /* [CP] Check Pods Manifest.lock */,
 				2358849A268FA81200631D8A /* Sources */,
 				2358849B268FA81200631D8A /* Frameworks */,
 				2358849C268FA81200631D8A /* Resources */,
+				F3A22D089B45759226F25FFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +315,9 @@
 				Base,
 			);
 			mainGroup = 23588474268FA80D00631D8A;
+			packageReferences = (
+				23013A8026A65DB200EAA8AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 2358847E268FA80D00631D8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -272,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A380D226A2361800A1919E /* GoogleService-Info.plist in Resources */,
 				2358848D268FA81200631D8A /* LaunchScreen.storyboard in Resources */,
 				2358848A268FA81200631D8A /* Preview Assets.xcassets in Resources */,
 				23588487268FA81200631D8A /* Assets.xcassets in Resources */,
@@ -294,15 +357,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D5EE68B6E58CC9EE15E3E30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Little Chicago SF AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE42E51DAA9FF337095C027 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Little Chicago SF App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E553BBF712507717D84164EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Little Chicago SF App/Pods-Little Chicago SF App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Little Chicago SF App/Pods-Little Chicago SF App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Little Chicago SF App/Pods-Little Chicago SF App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A22D089B45759226F25FFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Little Chicago SF App-Little Chicago SF AppUITests/Pods-Little Chicago SF App-Little Chicago SF AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Little Chicago SF App-Little Chicago SF AppUITests/Pods-Little Chicago SF App-Little Chicago SF AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Little Chicago SF App-Little Chicago SF AppUITests/Pods-Little Chicago SF App-Little Chicago SF AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF69070DFC4B1E7A0C78CA6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Little Chicago SF App-Little Chicago SF AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23588479268FA80D00631D8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2360C045269896A6004CC252 /* Menu.swift in Sources */,
-				23588481268FA80D00631D8A /* AppDelegate.swift in Sources */,
 				23588483268FA80D00631D8A /* SceneDelegate.swift in Sources */,
 				235884CD268FB11300631D8A /* Home.swift in Sources */,
+				23013A8426A9E1D200EAA8AD /* ItemView.swift in Sources */,
+				2357FB69269A3B9A00740C15 /* Little_Chicago_SF_AppApp.swift in Sources */,
+				2357FB6B269A4D6700740C15 /* Item.swift in Sources */,
 				23588485268FA80D00631D8A /* ContentView.swift in Sources */,
 				235884C8268FB0E000631D8A /* HomeViewModel.swift in Sources */,
 			);
@@ -469,6 +637,7 @@
 		};
 		235884A8268FA81200631D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4BDBD24D615800C349E3F0 /* Pods-Little Chicago SF App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +659,7 @@
 		};
 		235884A9268FA81200631D8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D3141D0AFB7D27EE2DBB53 /* Pods-Little Chicago SF App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -511,6 +681,7 @@
 		};
 		235884AB268FA81200631D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F9A421752AD27EEFCC0254 /* Pods-Little Chicago SF AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +704,7 @@
 		};
 		235884AC268FA81200631D8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E14A51F24973E55259E606B /* Pods-Little Chicago SF AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +727,7 @@
 		};
 		235884AE268FA81200631D8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63A68BEB964B69DCAE2E60C /* Pods-Little Chicago SF App-Little Chicago SF AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +748,7 @@
 		};
 		235884AF268FA81200631D8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B464CC9E3CA9AA8A40B2D2 /* Pods-Little Chicago SF App-Little Chicago SF AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -633,6 +807,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23013A8026A65DB200EAA8AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23013A8126A65DB200EAA8AD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23013A8026A65DB200EAA8AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 23588475268FA80D00631D8A /* Project object */;
 }

@@ -35,7 +35,7 @@ struct Home: View {
                     Text(HomeModel.userAddress)
                         .font(.caption)
                         .fontWeight(.heavy)
-                        .foregroundColor(.blue)
+                        .foregroundColor(.black)
                     
                     Spacer(minLength: 0)
                 }
@@ -63,8 +63,59 @@ struct Home: View {
                 
                 Divider()
                 
-                Spacer()
+                if HomeModel.items.isEmpty{
+                    
+                    Spacer()
+                    
+                    ProgressView()
+                    
+                    Spacer()
+                }
+                else{
+                    
+                    ScrollView(.vertical, showsIndicators: false, content: {
+                        
+                        VStack(spacing: 25){
+                            
+                            ForEach(HomeModel.filtered){item in
+                                
+                                // Item View...
+                                
+                                ZStack(alignment: Alignment(horizontal: .center, vertical: .top), content: {
+                                    
+                                    ItemView(item: item)
+                                    
+                                    HStack{
+                                        
+                                        Text("FREE DELIVERY")
+                                            .foregroundColor(.white)
+                                            .padding(.vertical,10)
+                                            .padding(.horizontal)
+                                            .background(Color("bg"))
+                                        
+                                        Spacer(minLength: 0)
+                                        
+                                        Button(action: {}, label: {
+                                            
+                                            Image(systemName: "plus")
+                                                .foregroundColor(.white)
+                                                .padding(10)
+                                                .background(Color("bg"))
+                                                .clipShape(Circle())
+                                        })
+                                    }
+                                    .padding(.trailing,10)
+                                    .padding(.top,10)
+                                        
+                                })
+                                .frame(width: UIScreen.main.bounds.width - 30)
+                            }
+                        }
+                        .padding(.top,10)
+                    })
+                }
             }
+            
             
             // Side Menu....
                 
@@ -101,6 +152,25 @@ struct Home: View {
             
             // calling location delegate....
             HomeModel.locationManager.delegate = HomeModel
+        })
+        .onChange(of: HomeModel.search, perform: { value in
+                  
+            // To Avoid Continues Search Requests....
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                  
+                if value == HomeModel.search && HomeModel.search != "" {
+                    
+                    // Search Data....
+                    
+                    HomeModel.filterData()
+                  
+                }
+            }
+            
+            if HomeModel.search == ""{
+                // Reset All Data....
+                withAnimation(.linear){HomeModel.filtered = HomeModel.items}
+            }
         })
     }
 }
