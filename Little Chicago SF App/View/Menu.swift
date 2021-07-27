@@ -13,22 +13,22 @@ struct Menu: View {
         
         VStack{
             
-            Button(action: {}, label: {
+            NavigationLink(destination: CartView(homeData: homeData)) {
                 
                 HStack(spacing: 15){
                     
                     Image(systemName: "cart")
                         .font(.title)
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("bg"))
                     
                     Text("Cart")
-                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.bold)
                         .foregroundColor(.black)
                     
-                    Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
+                    Spacer(minLength: 0)
                 }
                 .padding()
-            })
+            }
             
             Spacer()
             

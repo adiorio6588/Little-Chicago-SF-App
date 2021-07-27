@@ -23,6 +23,8 @@
 		235884C8268FB0E000631D8A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235884C7268FB0E000631D8A /* HomeViewModel.swift */; };
 		235884CD268FB11300631D8A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235884CC268FB11300631D8A /* Home.swift */; };
 		2360C045269896A6004CC252 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2360C044269896A6004CC252 /* Menu.swift */; };
+		2361D66926B07C3D0051CFCB /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2361D66826B07C3D0051CFCB /* Cart.swift */; };
+		2361D66B26B082790051CFCB /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2361D66A26B082790051CFCB /* CartView.swift */; };
 		23A380D226A2361800A1919E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23A380D126A2361800A1919E /* GoogleService-Info.plist */; };
 		AADA9CEACCC7E2FD7BF3F1FF /* Pods_Little_Chicago_SF_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68019B4E9D9A6177D1E21CD /* Pods_Little_Chicago_SF_App.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +66,8 @@
 		235884C7268FB0E000631D8A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		235884CC268FB11300631D8A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2360C044269896A6004CC252 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2361D66826B07C3D0051CFCB /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		2361D66A26B082790051CFCB /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		23A380D126A2361800A1919E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		30F9A421752AD27EEFCC0254 /* Pods-Little Chicago SF AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF AppTests/Pods-Little Chicago SF AppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		92D3141D0AFB7D27EE2DBB53 /* Pods-Little Chicago SF App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Little Chicago SF App.release.xcconfig"; path = "Target Support Files/Pods-Little Chicago SF App/Pods-Little Chicago SF App.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +194,7 @@
 				235884CC268FB11300631D8A /* Home.swift */,
 				2360C044269896A6004CC252 /* Menu.swift */,
 				23013A8326A9E1D200EAA8AD /* ItemView.swift */,
+				2361D66A26B082790051CFCB /* CartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				2357FB6A269A4D6700740C15 /* Item.swift */,
+				2361D66826B07C3D0051CFCB /* Cart.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -465,7 +471,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2361D66B26B082790051CFCB /* CartView.swift in Sources */,
 				2360C045269896A6004CC252 /* Menu.swift in Sources */,
+				2361D66926B07C3D0051CFCB /* Cart.swift in Sources */,
 				23588483268FA80D00631D8A /* SceneDelegate.swift in Sources */,
 				235884CD268FB11300631D8A /* Home.swift in Sources */,
 				23013A8426A9E1D200EAA8AD /* ItemView.swift in Sources */,

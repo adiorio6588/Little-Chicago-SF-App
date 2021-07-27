@@ -95,12 +95,14 @@ struct Home: View {
                                         
                                         Spacer(minLength: 0)
                                         
-                                        Button(action: {}, label: {
+                                        Button(action: {
+                                            HomeModel.addToCart(item: item)
+                                        }, label: {
                                             
-                                            Image(systemName: "plus")
+                                            Image(systemName: item.isAdded ? "checkmark" : "plus")
                                                 .foregroundColor(.white)
                                                 .padding(10)
-                                                .background(Color("bg"))
+                                                .background(item.isAdded ? Color.gray : Color("bg"))
                                                 .clipShape(Circle())
                                         })
                                     }
@@ -122,7 +124,7 @@ struct Home: View {
             HStack {
                 
                 Menu(homeData: HomeModel)
-                    // Move Effevt From Left....
+                    // Move Effect From Left....
                     .offset(x: HomeModel.showMenu ? 0 : -UIScreen.main.bounds.width / 1.6)
                 
                 Spacer(minLength: 0)
